@@ -1,0 +1,57 @@
+{
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "笑话"
+		}
+	}, {
+		"path": "pages/happy/happy",
+		"style": {
+			"navigationBarTitleText": "迷信乐一乐"
+		}
+	}, {
+		"path": "pages/calendar/calendar",
+		"style": {
+			"navigationBarTitleText": "万年历"
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "万年历"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "皮皮乐",
+		"navigationBarBackgroundColor": "#DD8888",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"color":"#000000",
+		"selectedColor":"#DD8888",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"text":"笑话",
+				"iconPath": "static/tabbar/笑话1.png",
+				"selectedIconPath":"static/tabbar/笑话2.png"
+			}, {
+				"pagePath":"pages/happy/happy",
+				"text":"迷信",
+				"iconPath": "static/tabbar/封建迷信1.png",
+				"selectedIconPath":"static/tabbar/封建迷信.png"
+			}, {
+				"pagePath":"pages/calendar/calendar",
+				"text":"万年历",
+				"iconPath": "static/tabbar/万年历1.png",
+				"selectedIconPath":"static/tabbar/万年历.png"
+			}, {
+				"pagePath":"pages/my/my",
+				"text":"我",
+				"iconPath": "static/tabbar/我的1.png",
+				"selectedIconPath":"static/tabbar/我的.png"
+			}
+		]
+	}
+}
